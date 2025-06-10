@@ -1,0 +1,3 @@
+/home/ankit/Desktop/C++/build/CMakeFiles/vscode_clone.dir
+/home/ankit/Desktop/C++/build/CMakeFiles/edit_cache.dir
+/home/ankit/Desktop/C++/build/CMakeFiles/rebuild_cache.dir

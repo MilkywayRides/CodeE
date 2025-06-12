@@ -69,24 +69,10 @@ include CMakeFiles/vscode_clone.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vscode_clone.dir/flags.make
 
-CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: CMakeFiles/vscode_clone.dir/flags.make
-CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: /home/ankit/Desktop/C++/src/core/editor.cpp
-CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: CMakeFiles/vscode_clone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ankit/Desktop/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o -MF CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o.d -o CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o -c /home/ankit/Desktop/C++/src/core/editor.cpp
-
-CMakeFiles/vscode_clone.dir/src/core/editor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vscode_clone.dir/src/core/editor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ankit/Desktop/C++/src/core/editor.cpp > CMakeFiles/vscode_clone.dir/src/core/editor.cpp.i
-
-CMakeFiles/vscode_clone.dir/src/core/editor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vscode_clone.dir/src/core/editor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ankit/Desktop/C++/src/core/editor.cpp -o CMakeFiles/vscode_clone.dir/src/core/editor.cpp.s
-
 CMakeFiles/vscode_clone.dir/src/main.cpp.o: CMakeFiles/vscode_clone.dir/flags.make
 CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
 CMakeFiles/vscode_clone.dir/src/main.cpp.o: CMakeFiles/vscode_clone.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ankit/Desktop/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vscode_clone.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ankit/Desktop/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vscode_clone.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vscode_clone.dir/src/main.cpp.o -MF CMakeFiles/vscode_clone.dir/src/main.cpp.o.d -o CMakeFiles/vscode_clone.dir/src/main.cpp.o -c /home/ankit/Desktop/C++/src/main.cpp
 
 CMakeFiles/vscode_clone.dir/src/main.cpp.i: cmake_force
@@ -97,16 +83,30 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vscode_clone.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ankit/Desktop/C++/src/main.cpp -o CMakeFiles/vscode_clone.dir/src/main.cpp.s
 
+CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: CMakeFiles/vscode_clone.dir/flags.make
+CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: /home/ankit/Desktop/C++/src/core/editor.cpp
+CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: CMakeFiles/vscode_clone.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ankit/Desktop/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o -MF CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o.d -o CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o -c /home/ankit/Desktop/C++/src/core/editor.cpp
+
+CMakeFiles/vscode_clone.dir/src/core/editor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vscode_clone.dir/src/core/editor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ankit/Desktop/C++/src/core/editor.cpp > CMakeFiles/vscode_clone.dir/src/core/editor.cpp.i
+
+CMakeFiles/vscode_clone.dir/src/core/editor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vscode_clone.dir/src/core/editor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ankit/Desktop/C++/src/core/editor.cpp -o CMakeFiles/vscode_clone.dir/src/core/editor.cpp.s
+
 # Object files for target vscode_clone
 vscode_clone_OBJECTS = \
-"CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o" \
-"CMakeFiles/vscode_clone.dir/src/main.cpp.o"
+"CMakeFiles/vscode_clone.dir/src/main.cpp.o" \
+"CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o"
 
 # External object files for target vscode_clone
 vscode_clone_EXTERNAL_OBJECTS =
 
-vscode_clone: CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o
 vscode_clone: CMakeFiles/vscode_clone.dir/src/main.cpp.o
+vscode_clone: CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o
 vscode_clone: CMakeFiles/vscode_clone.dir/build.make
 vscode_clone: CMakeFiles/vscode_clone.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ankit/Desktop/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vscode_clone"

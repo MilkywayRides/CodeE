@@ -1517,6 +1517,17 @@ CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: /home/ankit/Desktop/C++/src/c
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
+  /usr/include/vte-2.91/vte/vte.h \
+  /usr/include/vte-2.91/vte/vtedeprecated.h \
+  /usr/include/vte-2.91/vte/vteenums.h \
+  /usr/include/vte-2.91/vte/vteglobals.h \
+  /usr/include/vte-2.91/vte/vtemacros.h \
+  /usr/include/vte-2.91/vte/vtepty.h \
+  /usr/include/vte-2.91/vte/vteregex.h \
+  /usr/include/vte-2.91/vte/vteterminal.h \
+  /usr/include/vte-2.91/vte/vtetypebuiltins-gtk3.h \
+  /usr/include/vte-2.91/vte/vtetypebuiltins.h \
+  /usr/include/vte-2.91/vte/vteversion.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
@@ -1674,7 +1685,7 @@ CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: /home/ankit/Desktop/C++/src/c
   /usr/lib/x86_64-linux-gnu/sigc++-2.0/include/sigc++config.h
 
 CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp \
-  /home/ankit/Desktop/C++/include/editor.hpp \
+  /home/ankit/Desktop/C++/include/core/editor.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1740,6 +1751,7 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/c++/12/bits/char_traits.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/chrono.h \
+  /usr/include/c++/12/bits/codecvt.h \
   /usr/include/c++/12/bits/concept_check.h \
   /usr/include/c++/12/bits/cpp_type_traits.h \
   /usr/include/c++/12/bits/cxxabi_forced.h \
@@ -1750,6 +1762,10 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/c++/12/bits/exception.h \
   /usr/include/c++/12/bits/exception_defines.h \
   /usr/include/c++/12/bits/exception_ptr.h \
+  /usr/include/c++/12/bits/fs_dir.h \
+  /usr/include/c++/12/bits/fs_fwd.h \
+  /usr/include/c++/12/bits/fs_ops.h \
+  /usr/include/c++/12/bits/fs_path.h \
   /usr/include/c++/12/bits/functexcept.h \
   /usr/include/c++/12/bits/functional_hash.h \
   /usr/include/c++/12/bits/gslice.h \
@@ -1764,8 +1780,11 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/c++/12/bits/list.tcc \
   /usr/include/c++/12/bits/locale_classes.h \
   /usr/include/c++/12/bits/locale_classes.tcc \
+  /usr/include/c++/12/bits/locale_conv.h \
   /usr/include/c++/12/bits/locale_facets.h \
   /usr/include/c++/12/bits/locale_facets.tcc \
+  /usr/include/c++/12/bits/locale_facets_nonio.h \
+  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
   /usr/include/c++/12/bits/localefwd.h \
   /usr/include/c++/12/bits/mask_array.h \
   /usr/include/c++/12/bits/memoryfwd.h \
@@ -1779,6 +1798,7 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/c++/12/bits/postypes.h \
   /usr/include/c++/12/bits/predefined_ops.h \
   /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/bits/quoted_string.h \
   /usr/include/c++/12/bits/range_access.h \
   /usr/include/c++/12/bits/refwrap.h \
   /usr/include/c++/12/bits/shared_ptr.h \
@@ -1833,6 +1853,7 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/c++/12/cerrno \
   /usr/include/c++/12/clocale \
   /usr/include/c++/12/cmath \
+  /usr/include/c++/12/codecvt \
   /usr/include/c++/12/compare \
   /usr/include/c++/12/cstddef \
   /usr/include/c++/12/cstdint \
@@ -1852,8 +1873,10 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/c++/12/ext/numeric_traits.h \
   /usr/include/c++/12/ext/string_conversions.h \
   /usr/include/c++/12/ext/type_traits.h \
+  /usr/include/c++/12/filesystem \
   /usr/include/c++/12/functional \
   /usr/include/c++/12/initializer_list \
+  /usr/include/c++/12/iomanip \
   /usr/include/c++/12/ios \
   /usr/include/c++/12/iosfwd \
   /usr/include/c++/12/iostream \
@@ -1861,6 +1884,7 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/c++/12/iterator \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/list \
+  /usr/include/c++/12/locale \
   /usr/include/c++/12/map \
   /usr/include/c++/12/memory \
   /usr/include/c++/12/mutex \
@@ -3070,6 +3094,7 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/harfbuzz/hb-unicode.h \
   /usr/include/harfbuzz/hb-version.h \
   /usr/include/harfbuzz/hb.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
@@ -3173,6 +3198,17 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
+  /usr/include/vte-2.91/vte/vte.h \
+  /usr/include/vte-2.91/vte/vtedeprecated.h \
+  /usr/include/vte-2.91/vte/vteenums.h \
+  /usr/include/vte-2.91/vte/vteglobals.h \
+  /usr/include/vte-2.91/vte/vtemacros.h \
+  /usr/include/vte-2.91/vte/vtepty.h \
+  /usr/include/vte-2.91/vte/vteregex.h \
+  /usr/include/vte-2.91/vte/vteterminal.h \
+  /usr/include/vte-2.91/vte/vtetypebuiltins-gtk3.h \
+  /usr/include/vte-2.91/vte/vtetypebuiltins.h \
+  /usr/include/vte-2.91/vte/vteversion.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
@@ -3299,7 +3335,9 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -3325,8 +3363,6 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
   /usr/lib/x86_64-linux-gnu/pangomm-1.4/include/pangommconfig.h \
   /usr/lib/x86_64-linux-gnu/sigc++-2.0/include/sigc++config.h
 
-
-/home/ankit/Desktop/C++/include/editor.hpp:
 
 /usr/lib/x86_64-linux-gnu/gtkmm-3.0/include/gtkmmconfig.h:
 
@@ -3511,6 +3547,18 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/vte-2.91/vte/vteversion.h:
+
+/usr/include/vte-2.91/vte/vtetypebuiltins.h:
+
+/usr/include/vte-2.91/vte/vtetypebuiltins-gtk3.h:
+
+/usr/include/vte-2.91/vte/vteregex.h:
+
+/usr/include/vte-2.91/vte/vtemacros.h:
+
+/usr/include/vte-2.91/vte/vte.h:
 
 /usr/include/unistd.h:
 
@@ -4017,6 +4065,8 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
 /usr/include/gtkmm-3.0/gtkmm/activatable.h:
 
 /usr/include/gtkmm-3.0/gtkmm/actiongroup.h:
+
+/usr/include/vte-2.91/vte/vteterminal.h:
 
 /usr/include/gtkmm-3.0/gtkmm/actionbar.h:
 
@@ -5206,6 +5256,8 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
 
 /usr/include/gtk-3.0/gtk/gtkimcontextinfo.h:
 
+/usr/include/vte-2.91/vte/vtedeprecated.h:
+
 /usr/include/gdkmm-3.0/gdkmm/monitor.h:
 
 /usr/include/cairomm-1.0/cairomm/scaledfont.h:
@@ -5668,6 +5720,8 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
 
 /usr/include/glib-2.0/gio/gsimplepermission.h:
 
+/usr/include/vte-2.91/vte/vteglobals.h:
+
 /usr/include/glib-2.0/gio/gsocketaddress.h:
 
 /usr/include/glib-2.0/gio/gsocketaddressenumerator.h:
@@ -6019,6 +6073,8 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
 /usr/include/glib-2.0/gio/gbytesicon.h:
 
 /usr/include/gtk-3.0/gtk/gtkscalebutton.h:
+
+/usr/include/vte-2.91/vte/vteenums.h:
 
 /usr/include/gtkmm-3.0/gtkmm/texttag.h:
 
@@ -6559,6 +6615,8 @@ CMakeFiles/vscode_clone.dir/src/main.cpp.o: /home/ankit/Desktop/C++/src/main.cpp
 /usr/include/gtk-3.0/gtk/gtkplacessidebar.h:
 
 /usr/include/gtk-3.0/gtk/gtkpopovermenu.h:
+
+/usr/include/vte-2.91/vte/vtepty.h:
 
 /usr/include/gtk-3.0/gtk/gtkprintoperationpreview.h:
 

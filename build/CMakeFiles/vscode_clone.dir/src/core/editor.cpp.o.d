@@ -1534,16 +1534,26 @@ CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: \
  /usr/include/gtksourceviewmm-3.0/gtksourceviewmm/styleschememanager.h \
  /usr/include/gtksourceview-3.0/gtksourceview/gtksourcestyleschememanager.h \
  /usr/include/gtksourceviewmm-3.0/gtksourceviewmm/wrap_init.h \
- /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
- /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/iostream \
- /usr/include/c++/12/filesystem /usr/include/c++/12/bits/fs_fwd.h \
- /usr/include/c++/12/bits/fs_path.h /usr/include/c++/12/locale \
+ /usr/include/vte-2.91/vte/vte.h /usr/include/vte-2.91/vte/vtemacros.h \
+ /usr/include/vte-2.91/vte/vteenums.h \
+ /usr/include/vte-2.91/vte/vteglobals.h \
+ /usr/include/vte-2.91/vte/vtepty.h /usr/include/vte-2.91/vte/vteregex.h \
+ /usr/include/vte-2.91/vte/vteterminal.h \
+ /usr/include/vte-2.91/vte/vtetypebuiltins.h \
+ /usr/include/vte-2.91/vte/vtetypebuiltins-gtk3.h \
+ /usr/include/vte-2.91/vte/vteversion.h \
+ /usr/include/vte-2.91/vte/vtedeprecated.h /usr/include/c++/12/filesystem \
+ /usr/include/c++/12/bits/fs_fwd.h /usr/include/c++/12/bits/fs_path.h \
+ /usr/include/c++/12/locale \
  /usr/include/c++/12/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+ /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/bits/locale_facets_nonio.tcc \
  /usr/include/c++/12/bits/locale_conv.h /usr/include/c++/12/iomanip \
  /usr/include/c++/12/bits/quoted_string.h /usr/include/c++/12/codecvt \
- /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h
+ /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h \
+ /usr/include/c++/12/fstream \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/iostream

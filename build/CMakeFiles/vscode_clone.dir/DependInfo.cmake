@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ankit/Desktop/C++/src/editor.cpp" "CMakeFiles/vscode_clone.dir/src/editor.cpp.o" "gcc" "CMakeFiles/vscode_clone.dir/src/editor.cpp.o.d"
+  "/home/ankit/Desktop/C++/src/core/editor.cpp" "CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o" "gcc" "CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o.d"
   "/home/ankit/Desktop/C++/src/main.cpp" "CMakeFiles/vscode_clone.dir/src/main.cpp.o" "gcc" "CMakeFiles/vscode_clone.dir/src/main.cpp.o.d"
   )
 

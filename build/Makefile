@@ -129,29 +129,29 @@ vscode_clone/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vscode_clone.dir/build.make CMakeFiles/vscode_clone.dir/build
 .PHONY : vscode_clone/fast
 
-src/editor.o: src/editor.cpp.o
-.PHONY : src/editor.o
+src/core/editor.o: src/core/editor.cpp.o
+.PHONY : src/core/editor.o
 
 # target to build an object file
-src/editor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vscode_clone.dir/build.make CMakeFiles/vscode_clone.dir/src/editor.cpp.o
-.PHONY : src/editor.cpp.o
+src/core/editor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vscode_clone.dir/build.make CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o
+.PHONY : src/core/editor.cpp.o
 
-src/editor.i: src/editor.cpp.i
-.PHONY : src/editor.i
+src/core/editor.i: src/core/editor.cpp.i
+.PHONY : src/core/editor.i
 
 # target to preprocess a source file
-src/editor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vscode_clone.dir/build.make CMakeFiles/vscode_clone.dir/src/editor.cpp.i
-.PHONY : src/editor.cpp.i
+src/core/editor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vscode_clone.dir/build.make CMakeFiles/vscode_clone.dir/src/core/editor.cpp.i
+.PHONY : src/core/editor.cpp.i
 
-src/editor.s: src/editor.cpp.s
-.PHONY : src/editor.s
+src/core/editor.s: src/core/editor.cpp.s
+.PHONY : src/core/editor.s
 
 # target to generate assembly for a file
-src/editor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vscode_clone.dir/build.make CMakeFiles/vscode_clone.dir/src/editor.cpp.s
-.PHONY : src/editor.cpp.s
+src/core/editor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vscode_clone.dir/build.make CMakeFiles/vscode_clone.dir/src/core/editor.cpp.s
+.PHONY : src/core/editor.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vscode_clone"
-	@echo "... src/editor.o"
-	@echo "... src/editor.i"
-	@echo "... src/editor.s"
+	@echo "... src/core/editor.o"
+	@echo "... src/core/editor.i"
+	@echo "... src/core/editor.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

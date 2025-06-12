@@ -1,6 +1,6 @@
-CMakeFiles/vscode_clone.dir/src/editor.cpp.o: \
- /home/ankit/Desktop/C++/src/editor.cpp /usr/include/stdc-predef.h \
- /home/ankit/Desktop/C++/include/editor.hpp \
+CMakeFiles/vscode_clone.dir/src/core/editor.cpp.o: \
+ /home/ankit/Desktop/C++/src/core/editor.cpp /usr/include/stdc-predef.h \
+ /home/ankit/Desktop/C++/include/core/editor.hpp \
  /usr/include/gtkmm-3.0/gtkmm.h /usr/include/glibmm-2.4/glibmm.h \
  /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h \
  /usr/include/glibmm-2.4/glibmm/thread.h /usr/include/glib-2.0/glib.h \
